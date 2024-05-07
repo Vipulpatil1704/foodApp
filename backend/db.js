@@ -1,5 +1,6 @@
 // getting-started.js
 const mongoose = require('mongoose');
+require("dotenv").config();
 const mongoURI='mongodb+srv://goFood:goFood@cluster0.zcfghvs.mongodb.net/gofoodmern?retryWrites=true&w=majority';
 main().catch(err => console.log(err));
 mongoose.set('strictQuery', false);
